@@ -1,0 +1,175 @@
+/*########### ipad: 1133 x 744 ################### */
+@media screen and (max-width:1133px) {
+    #projects #overview {
+        width: 725px;
+    }
+    .project-content .cards {
+        border: 1px solid #333;
+        margin: 12px;
+        width: 240px;
+    }
+    #contact-section .contacts {
+        padding: 217px 82px;
+    }
+}
+
+
+/* ################## max-width 360 */
+
+/* @media screen and (max-width:360px) {
+    
+} */
+
+@media screen and (max-width:480px) {
+    #herocon {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #herocon .content2 {
+        padding: 38px 18px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    #herocon .content1 {
+        padding: 25px 10px;
+    }
+    #bgimage {
+        height: 935px;
+        width: 100%;
+    }
+    .content1 .heroContent {
+        padding: 22px 34px;
+        text-align: justify;
+    }
+    .learnImg {
+        flex-wrap: wrap;
+    }
+
+    #projects {
+        flex-direction: column-reverse;
+    }
+
+    .project-content .cards {
+        width: 184px;
+    }
+    .arrowleft img{
+        visibility: hidden;
+    }
+
+    .arrowleft {
+        background: url('../images/arrowDown.png') no-repeat center center/cover;
+        height: 330px;
+        width: 250px;
+    }
+    #projects #overview {
+        height: 686px;
+    }
+
+    #contact-section .contacts {
+        display: none;
+    }
+
+    #contact-form {
+        height: 635px;
+        padding: 37px 41px;
+    }
+
+    .btt {
+        height: 111px;
+    }
+
+    .contactinfo {
+        height: 209px;
+        padding: 34px;
+    }
+}
+
+/* 720 x 1600 */
+@media screen and (max-width:480px) {
+    #herocon {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #herocon .content2 {
+        padding: 38px 18px;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+    #herocon {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #herocon .content2 {
+        padding: 43px 46px;
+    }
+
+
+    #herocon .content1 {
+        padding: 25px 10px;
+    }
+    #bgimage {
+        height: 935px;
+        width: 100%;
+    }
+    .content1 .heroContent {
+        padding: 22px 34px;
+        text-align: justify;
+    }
+    .learnImg {
+        flex-wrap: wrap;
+    }
+
+    #projects {
+        flex-direction: column-reverse;
+    }
+
+    .project-content {
+        padding: 20px;
+        justify-content: center;
+    }
+    
+    .project-content .cards {
+        width: 184px;
+    }
+    .arrowleft img{
+        visibility: hidden;
+    }
+
+    .arrowleft {
+        background: url('../images/arrowDown.png') no-repeat center center/cover;
+        height: 330px;
+        width: 250px;
+    }
+    #projects #overview {
+        height: 686px;
+    }
+
+    #contact-section .contacts {
+        display: none;
+    }
+
+    #contact-form {
+        height: 635px;
+        padding: 37px 41px;
+    }
+
+    .btt {
+        height: 111px;
+    }
+
+    .contactinfo {
+        height: 209px;
+        padding: 34px;
+    }
+}
